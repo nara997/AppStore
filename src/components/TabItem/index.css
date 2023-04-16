@@ -1,0 +1,56 @@
+
+
+
+.tab-item-button{
+    font-size: 15px;
+    font-family: Roboto;
+    color:  #7b8794;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 1px solid #7b8794;
+}
+
+.isactive-tab-item-button{
+    font-size: 18px;
+    font-family: Roboto;
+    color:  blue;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+
+}
+
+@media screen and (min-width: 768px){
+    .tab-item-button{
+        font-size: 20px;
+        font-family: Roboto;
+        color:  #7b8794;
+        padding: 0px 15px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: transparent;
+        border-bottom: 1px solid #7b8794;
+    }
+    
+    .isactive-tab-item-button{
+        font-size: 20px;
+        font-family: Roboto;
+        color:  blue;
+        padding: 0px 15px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: transparent;
+        border-bottom: 3px solid blue;
+    
+    }
+
+
+}
