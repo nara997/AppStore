@@ -28,7 +28,7 @@
     border: 1px solid #7b8794;
     height: 40px;
     width: 100%;
-    max-width: 250px;
+    max-width: 270px;
     border-radius: 4px;
     padding-left: 16px;
     padding-top: 8px;
@@ -53,8 +53,8 @@
   }
   
   .search-icon {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
 
   .tabs-conatiner{
@@ -85,7 +85,7 @@
   .no-apps-heading{
 
     font-family: 'Roboto';
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 500;
     color: #1e293b;
     margin: auto;
@@ -93,8 +93,15 @@
   }
 
 
-  span{
-    font-size: 13px;
-    padding: 0px;
-    color: blue;
+@media screen and(min-width: 768px){
+  .no-apps-heading{
+
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 500;
+    color: #1e293b;
+    margin: auto;
+    
   }
+
+}
